@@ -23,3 +23,5 @@ date,ticker,next_day,next_5day,bullish_signals,total_signals
 2025-03-27,bop,Up,Up,3,5
 2025-03-27,mlcf,Down,Up,5,5
 2025-03-27,snbl,Up,Down,2,5
+2025-03-27,fccl,Down,Down,0,5
+2025-03-27,mlcf,Down,Up,3,5

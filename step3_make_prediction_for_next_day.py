@@ -52,7 +52,7 @@ torch.manual_seed(42)
 from step2_find_most_predictable_stocks import TimeSeriesPredictor, create_features, prepare_data_sequences
 
 # Define the tickers for prediction
-PREDICTABLE_TICKERS = ['bop', 'mlcf', 'snbl']
+PREDICTABLE_TICKERS = ['fccl', 'mlcf']
 
 # File paths
 source_file = 'data/daily_stocks.pkl'

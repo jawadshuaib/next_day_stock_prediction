@@ -52,7 +52,7 @@ from step2_find_most_predictable_stocks import TimeSeriesPredictor, create_featu
 from step3_make_prediction_for_next_day import predict_multi_horizon
 
 # Define the tickers for daily updates
-PREDICTABLE_TICKERS = ['bop', 'mlcf', 'snbl']
+PREDICTABLE_TICKERS = ['fccl', 'mlcf']
 
 # File paths
 SOURCE_FILE = 'data/daily_stocks.pkl'
