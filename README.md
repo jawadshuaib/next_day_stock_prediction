@@ -196,7 +196,7 @@ This suggests that **bop** and **mlcf** are highly predictable (high accuracy an
 1. Clone the repository:
 
    ```
-   git clone <repository-url>
+   git clone git@github.com:jawadshuaib/next_day_stock_prediction.git
    cd next_day_stock_prediction
    ```
 
