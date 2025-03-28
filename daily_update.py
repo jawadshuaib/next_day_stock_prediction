@@ -1,18 +1,6 @@
 # This script performs daily updates for stock prediction models. It processes new data files, updates the dataset, 
 # re-trains models for specified tickers, and generates predictions for the next day and the next 5 days. 
 # The script also logs predictions and provides trading strategy recommendations.
-# Modules:
-#     - random: For setting random seeds.
-#     - pandas: For data manipulation and analysis.
-#     - numpy: For numerical computations.
-#     - torch: For building and training neural networks.
-#     - sklearn.preprocessing: For scaling data.
-#     - os: For file and directory operations.
-#     - json: For handling JSON files.
-#     - argparse: For parsing command-line arguments.
-#     - datetime: For handling date and time.
-#     - glob: For file pattern matching.
-#     - warnings: For suppressing warnings.
 # Functions:
 #     - update_dataset_from_file(data, file_path): Processes a single update file and merges it with the existing dataset.
 #     - update_dataset(update_dir=None): Updates the dataset with new data from all files in the specified directory.

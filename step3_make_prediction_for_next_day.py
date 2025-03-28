@@ -5,12 +5,6 @@
 --
 This script generates multi-horizon stock predictions (next day and next 5 days) for a list of predefined tickers.
 It uses trained models and feature engineering to analyze stock data and provide predictions along with trading strategy recommendations.
-Modules:
-- pandas: For data manipulation and analysis.
-- numpy: For numerical computations.
-- torch: For loading and using trained PyTorch models.
-- os: For file and directory operations.
-- warnings: To suppress warnings during execution.
 Functions:
 - add_5day_horizon(data):
     Adds a 5-day prediction horizon to the dataset by calculating future returns and direction.

@@ -3,14 +3,6 @@
 -- Consolidate all JSON files into a single pickle file --
 --
 This script processes JSON files containing stock data, cleans the data, and saves it as a consolidated pickle file.
-Modules:
-    - glob: Used to retrieve file paths matching a specified pattern.
-    - json: Used to parse JSON data.
-    - os: Used for file and directory operations.
-    - numpy (np): Used for handling numerical data and invalid values.
-    - pandas (pd): Used for data manipulation and analysis.
-Functions:
-    - None
 Workflow:
     1. Retrieves all JSON files from the specified directory (`data/daily/existing/*.json`).
     2. Iterates through each JSON file:
