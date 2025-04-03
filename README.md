@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This project implements a sophisticated machine learning system to predict daily stock price movements (up/down) using historical price data, technical indicators, and deep learning models. The system aims to identify the most predictable stocks and generate actionable trading signals based on next-day and 5-day forecasts.
+This project implements machine learning algorithms to predict daily stock price movements (up/down) using historical price data, technical indicators, and deep learning models. The system aims to identify the most predictable stocks and generate actionable trading signals based on next-day and 5-day forecasts.
 
 ---
 
